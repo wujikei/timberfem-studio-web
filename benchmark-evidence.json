@@ -1,0 +1,32 @@
+{
+  "version": "0.8.0",
+  "source": "Archived live HTTP smoke evidence; only explicitly selected public fields",
+  "input_note": "Prescribed benchmark parameters, not material design values or code combinations",
+  "benchmarks": [
+    {
+      "kind": "2d",
+      "response_mm": 1.1176499999999998,
+      "expected_mm": 1.1176499999999998,
+      "q_G_N_per_mm": -0.003920000000000001,
+      "q_W_N_per_mm": -0.48000000000000004,
+      "q_C_N_per_mm": 0.715296,
+      "task_steps": [
+        8,
+        8
+      ]
+    },
+    {
+      "kind": "3d",
+      "response_mm": 0.2654087090378996,
+      "expected_mm": 0.26540870903790087,
+      "q_G_N_per_mm": -0.13171200000000002,
+      "q_W_N_per_mm": -0.48000000000000004,
+      "q_C_N_per_mm": 0.5619456,
+      "task_steps": [
+        8,
+        8
+      ]
+    }
+  ],
+  "cold_reopen_passed": true
+}

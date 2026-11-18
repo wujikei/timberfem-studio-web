@@ -1,2 +1,23 @@
-# timberfem-studio-web
-TimberFEM Studio public project entry and sanitized numerical benchmarks. Research source remains private.
+# TimberFEM Studio · 公开项目入口
+
+网址：<https://wujikei.github.io/timberfem-studio-web/>
+
+本仓库只托管公开项目入口、页面样式和经过清洗的数值核验摘要。完整源码保留在私有仓库 [wujikei/TimberFEM-Studio](https://github.com/wujikei/TimberFEM-Studio)。私有仓库需要项目负责人授权后访问。
+
+## 使用方式
+
+1. 打开上面的 HTTPS 网址，阅读项目介绍与公开算例。
+2. 完整软件请使用项目负责人交付的源码 ZIP，按包内说明完整解压并启动。
+3. 如收到受密码保护的临时研究入口，按单独提供的账号登录。临时入口依赖演示电脑开机、服务运行和网络连通，不是永久托管。
+
+GitHub Pages 是静态托管，本页面不执行 Python 或 OpenSees 求解。页面中的本机工作台链接只在本机已启动服务后生效。
+
+## 数值说明
+
+`benchmark-evidence.json` 摘要取自 TimberFEM Studio 0.8.0 已归档的真实 HTTP 求解记录，仅保留两个公开验证算例的输入荷载和响应。页面明确列出理论假设与给定输入。求解值与独立公式一致，不构成某座实际结构的承载力或抗震安全结论。
+
+本仓库不包含研究项目数据、原始试验文件、未发表论文、后端源码、演示密码或个人访问令牌。
+
+## 修改记录
+
+- 2026-11-18：建立公开项目入口，发布已有静力荷载算例的清洗摘要；将静态说明与实际求解工作台的运行条件分开标明。
